@@ -1,0 +1,220 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Lexend%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#fcf8f8] justify-between group/design-root overflow-x-hidden"
+      style='font-family: Lexend, "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-[#fcf8f8] p-4 pb-2 justify-between">
+          <div class="text-[#1c0d0d] flex size-12 shrink-0 items-center" data-icon="ArrowLeft" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+            </svg>
+          </div>
+          <h2 class="text-[#1c0d0d] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-12">Today's Workout</h2>
+        </div>
+        <h2 class="text-[#1c0d0d] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Workout Schedule</h2>
+        <div class="flex flex-wrap items-center justify-center gap-6 p-4">
+          <div class="flex min-w-72 max-w-[336px] flex-1 flex-col gap-0.5">
+            <div class="flex items-center p-1 justify-between">
+              <button>
+                <div class="text-[#1c0d0d] flex size-10 items-center justify-center" data-icon="CaretLeft" data-size="18px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"></path>
+                  </svg>
+                </div>
+              </button>
+              <p class="text-[#1c0d0d] text-base font-bold leading-tight flex-1 text-center">April 2024</p>
+              <button>
+                <div class="text-[#1c0d0d] flex size-10 items-center justify-center" data-icon="CaretRight" data-size="18px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div class="grid grid-cols-7">
+              <p class="text-[#1c0d0d] text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">S</p>
+              <p class="text-[#1c0d0d] text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">M</p>
+              <p class="text-[#1c0d0d] text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">T</p>
+              <p class="text-[#1c0d0d] text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">W</p>
+              <p class="text-[#1c0d0d] text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">T</p>
+              <p class="text-[#1c0d0d] text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">F</p>
+              <p class="text-[#1c0d0d] text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">S</p>
+              <button class="h-12 w-full text-[#1c0d0d] col-start-4 text-sm font-medium leading-normal">
+                <div class="flex size-full items-center justify-center rounded-full">1</div>
+              </button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">2</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">3</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">4</div></button>
+              <button class="h-12 w-full text-[#fcf8f8] text-sm font-medium leading-normal">
+                <div class="flex size-full items-center justify-center rounded-full bg-[#e00606]">5</div>
+              </button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">6</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">7</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">8</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">9</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">10</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">11</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">12</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">13</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">14</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">15</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">16</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">17</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">18</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">19</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">20</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">21</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">22</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">23</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">24</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">25</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">26</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">27</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">28</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">29</div></button>
+              <button class="h-12 w-full text-[#1c0d0d] text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">30</div></button>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-[#1c0d0d] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Today's Workout</h2>
+        <div class="flex items-center gap-4 bg-[#fcf8f8] px-4 min-h-[72px] py-2 justify-between">
+          <div class="flex items-center gap-4">
+            <div class="text-[#1c0d0d] flex items-center justify-center rounded-lg bg-[#f4e6e6] shrink-0 size-12" data-icon="Barbell" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M248,120h-8V88a16,16,0,0,0-16-16H208V64a16,16,0,0,0-16-16H168a16,16,0,0,0-16,16v56H104V64A16,16,0,0,0,88,48H64A16,16,0,0,0,48,64v8H32A16,16,0,0,0,16,88v32H8a8,8,0,0,0,0,16h8v32a16,16,0,0,0,16,16H48v8a16,16,0,0,0,16,16H88a16,16,0,0,0,16-16V136h48v56a16,16,0,0,0,16,16h24a16,16,0,0,0,16-16v-8h16a16,16,0,0,0,16-16V136h8a8,8,0,0,0,0-16ZM32,168V88H48v80Zm56,24H64V64H88V192Zm104,0H168V64h24V175.82c0,.06,0,.12,0,.18s0,.12,0,.18V192Zm32-24H208V88h16Z"
+                ></path>
+              </svg>
+            </div>
+            <div class="flex flex-col justify-center">
+              <p class="text-[#1c0d0d] text-base font-medium leading-normal line-clamp-1">Strength Training</p>
+              <p class="text-[#9e4747] text-sm font-normal leading-normal line-clamp-2">10:00 - 11:00</p>
+            </div>
+          </div>
+          <div class="shrink-0">
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f4e6e6] text-[#1c0d0d] text-sm font-medium leading-normal w-fit"
+            >
+              <span class="truncate">Start</span>
+            </button>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 bg-[#fcf8f8] px-4 min-h-[72px] py-2 justify-between">
+          <div class="flex items-center gap-4">
+            <div class="text-[#1c0d0d] flex items-center justify-center rounded-lg bg-[#f4e6e6] shrink-0 size-12" data-icon="Heart" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"
+                ></path>
+              </svg>
+            </div>
+            <div class="flex flex-col justify-center">
+              <p class="text-[#1c0d0d] text-base font-medium leading-normal line-clamp-1">Cardio</p>
+              <p class="text-[#9e4747] text-sm font-normal leading-normal line-clamp-2">14:00 - 15:00</p>
+            </div>
+          </div>
+          <div class="shrink-0">
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f4e6e6] text-[#1c0d0d] text-sm font-medium leading-normal w-fit"
+            >
+              <span class="truncate">Start</span>
+            </button>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 bg-[#fcf8f8] px-4 min-h-[72px] py-2 justify-between">
+          <div class="flex items-center gap-4">
+            <div class="text-[#1c0d0d] flex items-center justify-center rounded-lg bg-[#f4e6e6] shrink-0 size-12" data-icon="FlowerLotus" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M245.83,121.63a15.53,15.53,0,0,0-9.52-7.33,73.51,73.51,0,0,0-22.17-2.22c4-19.85,1-35.55-2.06-44.86a16.15,16.15,0,0,0-18.79-10.88,85.53,85.53,0,0,0-28.55,12.12,94.58,94.58,0,0,0-27.11-33.25,16.05,16.05,0,0,0-19.26,0A94.48,94.48,0,0,0,91.26,68.46,85.53,85.53,0,0,0,62.71,56.34,16.15,16.15,0,0,0,43.92,67.22c-3,9.31-6,25-2.06,44.86a73.51,73.51,0,0,0-22.17,2.22,15.53,15.53,0,0,0-9.52,7.33,16,16,0,0,0-1.6,12.27c3.39,12.57,13.8,36.48,45.33,55.32S113.13,208,128.05,208s42.67,0,74-18.78c31.53-18.84,41.94-42.75,45.33-55.32A16,16,0,0,0,245.83,121.63ZM59.14,72.14a.2.2,0,0,1,.23-.15A70.43,70.43,0,0,1,85.18,83.66,118.65,118.65,0,0,0,80,119.17c0,18.74,3.77,34,9.11,46.28A123.59,123.59,0,0,1,69.57,140C51.55,108.62,55.3,84,59.14,72.14Zm3,103.35C35.47,159.57,26.82,140.05,24,129.7a59.82,59.82,0,0,1,22.5-1.17,129.08,129.08,0,0,0,9.15,19.41,142.28,142.28,0,0,0,34,39.56A114.92,114.92,0,0,1,62.1,175.49ZM128,190.4c-9.33-6.94-32-28.23-32-71.23C96,76.7,118.38,55.24,128,48c9.62,7.26,32,28.72,32,71.19C160,162.17,137.33,183.46,128,190.4ZM170.82,83.66A70.43,70.43,0,0,1,196.63,72a.2.2,0,0,1,.23.15C200.7,84,204.45,108.62,186.43,140a123.32,123.32,0,0,1-19.54,25.48c5.34-12.26,9.11-27.54,9.11-46.28A118.65,118.65,0,0,0,170.82,83.66ZM232,129.72c-2.77,10.25-11.4,29.81-38.09,45.77a114.92,114.92,0,0,1-27.55,12,142.28,142.28,0,0,0,34-39.56,129.08,129.08,0,0,0,9.15-19.41A59.69,59.69,0,0,1,232,129.71Z"
+                ></path>
+              </svg>
+            </div>
+            <div class="flex flex-col justify-center">
+              <p class="text-[#1c0d0d] text-base font-medium leading-normal line-clamp-1">Yoga</p>
+              <p class="text-[#9e4747] text-sm font-normal leading-normal line-clamp-2">18:00 - 19:00</p>
+            </div>
+          </div>
+          <div class="shrink-0">
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f4e6e6] text-[#1c0d0d] text-sm font-medium leading-normal w-fit"
+            >
+              <span class="truncate">Start</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="flex gap-2 border-t border-[#f4e6e6] bg-[#fcf8f8] px-4 pb-3 pt-2">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-[#1c0d0d]" href="#">
+            <div class="text-[#1c0d0d] flex h-8 items-center justify-center" data-icon="Barbell" data-size="24px" data-weight="fill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M200,64V192a16,16,0,0,1-16,16H168a16,16,0,0,1-16-16V136H104v56a16,16,0,0,1-16,16H72a16,16,0,0,1-16-16V64A16,16,0,0,1,72,48H88a16,16,0,0,1,16,16v56h48V64a16,16,0,0,1,16-16h16A16,16,0,0,1,200,64ZM36,72H32A16,16,0,0,0,16,88v32H8.27A8.18,8.18,0,0,0,0,127.47,8,8,0,0,0,8,136h8v32a16,16,0,0,0,16,16h4a4,4,0,0,0,4-4V76A4,4,0,0,0,36,72Zm220,55.47a8.18,8.18,0,0,0-8.25-7.47H240V88a16,16,0,0,0-16-16h-4a4,4,0,0,0-4,4V180a4,4,0,0,0,4,4h4a16,16,0,0,0,16-16V136h8A8,8,0,0,0,256,127.47Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#1c0d0d] text-xs font-medium leading-normal tracking-[0.015em]">Workout</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9e4747]" href="#">
+            <div class="text-[#9e4747] flex h-8 items-center justify-center" data-icon="Carrot" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M232,64H203.31l26.35-26.34a8,8,0,0,0-11.32-11.32L192,52.69V24a8,8,0,0,0-16,0V56.57a64,64,0,0,0-77.2,10.12l0,0,0,0,0,0c-40.1,39.39-70.25,133.08-73.19,142.45a16,16,0,0,0,21.26,21.26c9.37-2.94,103.18-33.13,142.47-73.21A64,64,0,0,0,199.43,80H232a8,8,0,0,0,0-16Zm-54.12,82c-8.94,9.12-21.25,17.8-34.85,25.73l-25.38-25.39a8,8,0,0,0-11.32,11.32l22.09,22.09c-40.87,21.19-86.32,35.42-87,35.63A7.93,7.93,0,0,0,40,216a7.93,7.93,0,0,0,.59-1.41c.29-.93,28-89.58,64-130.67l33.77,33.77a8,8,0,0,0,11.32-11.32L116.18,72.88A48,48,0,0,1,177.88,146Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9e4747] text-xs font-medium leading-normal tracking-[0.015em]">Nutrition</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9e4747]" href="#">
+            <div class="text-[#9e4747] flex h-8 items-center justify-center" data-icon="Trophy" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M232,64H208V56a16,16,0,0,0-16-16H64A16,16,0,0,0,48,56v8H24A16,16,0,0,0,8,80V96a40,40,0,0,0,40,40h3.65A80.13,80.13,0,0,0,120,191.61V216H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16H136V191.58c31.94-3.23,58.44-25.64,68.08-55.58H208a40,40,0,0,0,40-40V80A16,16,0,0,0,232,64ZM48,120A24,24,0,0,1,24,96V80H48v32q0,4,.39,8Zm144-8.9c0,35.52-28.49,64.64-63.51,64.9H128a64,64,0,0,1-64-64V56H192ZM232,96a24,24,0,0,1-24,24h-.5a81.81,81.81,0,0,0,.5-8.9V80h24Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9e4747] text-xs font-medium leading-normal tracking-[0.015em]">Goals</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9e4747]" href="#">
+            <div class="text-[#9e4747] flex h-8 items-center justify-center" data-icon="ChatCircleDots" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M140,128a12,12,0,1,1-12-12A12,12,0,0,1,140,128ZM84,116a12,12,0,1,0,12,12A12,12,0,0,0,84,116Zm88,0a12,12,0,1,0,12,12A12,12,0,0,0,172,116Zm60,12A104,104,0,0,1,79.12,219.82L45.07,231.17a16,16,0,0,1-20.24-20.24l11.35-34.05A104,104,0,1,1,232,128Zm-16,0A88,88,0,1,0,51.81,172.06a8,8,0,0,1,.66,6.54L40,216,77.4,203.53a7.85,7.85,0,0,1,2.53-.42,8,8,0,0,1,4,1.08A88,88,0,0,0,216,128Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9e4747] text-xs font-medium leading-normal tracking-[0.015em]">Chat</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9e4747]" href="#">
+            <div class="text-[#9e4747] flex h-8 items-center justify-center" data-icon="Gear" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm88-29.84q.06-2.16,0-4.32l14.92-18.64a8,8,0,0,0,1.48-7.06,107.21,107.21,0,0,0-10.88-26.25,8,8,0,0,0-6-3.93l-23.72-2.64q-1.48-1.56-3-3L186,40.54a8,8,0,0,0-3.94-6,107.71,107.71,0,0,0-26.25-10.87,8,8,0,0,0-7.06,1.49L130.16,40Q128,40,125.84,40L107.2,25.11a8,8,0,0,0-7.06-1.48A107.6,107.6,0,0,0,73.89,34.51a8,8,0,0,0-3.93,6L67.32,64.27q-1.56,1.49-3,3L40.54,70a8,8,0,0,0-6,3.94,107.71,107.71,0,0,0-10.87,26.25,8,8,0,0,0,1.49,7.06L40,125.84Q40,128,40,130.16L25.11,148.8a8,8,0,0,0-1.48,7.06,107.21,107.21,0,0,0,10.88,26.25,8,8,0,0,0,6,3.93l23.72,2.64q1.49,1.56,3,3L70,215.46a8,8,0,0,0,3.94,6,107.71,107.71,0,0,0,26.25,10.87,8,8,0,0,0,7.06-1.49L125.84,216q2.16.06,4.32,0l18.64,14.92a8,8,0,0,0,7.06,1.48,107.21,107.21,0,0,0,26.25-10.88,8,8,0,0,0,3.93-6l2.64-23.72q1.56-1.48,3-3L215.46,186a8,8,0,0,0,6-3.94,107.71,107.71,0,0,0,10.87-26.25,8,8,0,0,0-1.49-7.06Zm-16.1-6.5a73.93,73.93,0,0,1,0,8.68,8,8,0,0,0,1.74,5.48l14.19,17.73a91.57,91.57,0,0,1-6.23,15L187,173.11a8,8,0,0,0-5.1,2.64,74.11,74.11,0,0,1-6.14,6.14,8,8,0,0,0-2.64,5.1l-2.51,22.58a91.32,91.32,0,0,1-15,6.23l-17.74-14.19a8,8,0,0,0-5-1.75h-.48a73.93,73.93,0,0,1-8.68,0,8,8,0,0,0-5.48,1.74L100.45,215.8a91.57,91.57,0,0,1-15-6.23L82.89,187a8,8,0,0,0-2.64-5.1,74.11,74.11,0,0,1-6.14-6.14,8,8,0,0,0-5.1-2.64L46.43,170.6a91.32,91.32,0,0,1-6.23-15l14.19-17.74a8,8,0,0,0,1.74-5.48,73.93,73.93,0,0,1,0-8.68,8,8,0,0,0-1.74-5.48L40.2,100.45a91.57,91.57,0,0,1,6.23-15L69,82.89a8,8,0,0,0,5.1-2.64,74.11,74.11,0,0,1,6.14-6.14A8,8,0,0,0,82.89,69L85.4,46.43a91.32,91.32,0,0,1,15-6.23l17.74,14.19a8,8,0,0,0,5.48,1.74,73.93,73.93,0,0,1,8.68,0,8,8,0,0,0,5.48-1.74L155.55,40.2a91.57,91.57,0,0,1,15,6.23L173.11,69a8,8,0,0,0,2.64,5.1,74.11,74.11,0,0,1,6.14,6.14,8,8,0,0,0,5.1,2.64l22.58,2.51a91.32,91.32,0,0,1,6.23,15l-14.19,17.74A8,8,0,0,0,199.87,123.66Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9e4747] text-xs font-medium leading-normal tracking-[0.015em]">Settings</p>
+          </a>
+        </div>
+        <div class="h-5 bg-[#fcf8f8]"></div>
+      </div>
+    </div>
+  </body>
+</html>

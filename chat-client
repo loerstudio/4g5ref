@@ -1,0 +1,181 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Lexend%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#fcf8f8] justify-between group/design-root overflow-x-hidden"
+      style='font-family: Lexend, "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-[#fcf8f8] p-4 pb-2 justify-between">
+          <div class="text-[#1c0d0d] flex size-12 shrink-0 items-center" data-icon="ArrowLeft" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+            </svg>
+          </div>
+          <h2 class="text-[#1c0d0d] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-12">Chat</h2>
+        </div>
+        <h3 class="text-[#1c0d0d] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Oggi</h3>
+        <div class="flex items-end gap-3 p-4">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDYru2U_NuaSJgh9PikjuaPB4kd2r7OBc3-UKHSQ1krrz_mEsPXR_zeCm-LFRC9AS6KzsijlbE91-2wBGUTK-RLRq9KfPMk3lA4eevZ-kRa2c_ya_MzccUijwL0tguVACTbP4GL6n7kfoeKIHFWR4U4vo0NuYpmFChgtgsLb6xkqGWb0LecKRp1JbJYX4-gK7YKgC7RqhItxi_7Wee3AAnbcHBGZP2x69VPxkwQcVl-_poWjh06d8VG3R7DUq1bNqLaBasdcfoHeUvX");'
+          ></div>
+          <div class="flex flex-1 flex-col gap-1 items-start">
+            <p class="text-[#9e4747] text-[13px] font-normal leading-normal max-w-[360px]">Luca</p>
+            <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#f4e6e6] text-[#1c0d0d]">Ciao, come ti senti oggi?</p>
+          </div>
+        </div>
+        <div class="flex items-end gap-3 p-4 justify-end">
+          <div class="flex flex-1 flex-col gap-1 items-end">
+            <p class="text-[#9e4747] text-[13px] font-normal leading-normal max-w-[360px] text-right">Giulia</p>
+            <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#e00606] text-[#fcf8f8]">
+              Ciao Luca, mi sento bene, grazie! Ho completato l'allenamento di oggi e mi sono sentita molto energica.
+            </p>
+          </div>
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAQq5_rcwuA3tktrXVHhNbEaUZUf0w5MTWjGeeRJ9e1JjQdoa602XJAwn-1uyaAVsWFC-vfxZMG6Xvhe4NMOdQR3MLVtlG91nWMqy84QDZAfHyyaZ6T1St08TuBL3qbkzbwm6-Aa0r4mIJE9U4ue0QcXEUlED-qD4zQISMfFAwbdX5f7MhnDxVs1zFKhom5OJGGMoPZF1MH6yDO4iD-D36qf72ZSdXdcX45OIU10OFbWRzGZ2D_eWtRcXm4i5BerNhnnxOjFbzIaS9k");'
+          ></div>
+        </div>
+        <div class="flex items-end gap-3 p-4">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB1PRvP-XRkRDzd6EPTcrpg60TZAMHeZsRpuKctHWY3VXtPteavmldMnKuynON89LJ9G7iFVj6DtrbDEPM9-oa8Ta6IJSE2B2JLC0tTAsVoX46ui3QBj0_filj4YyeN_-fjHfz6Wf9rw4wNfYFzG5ur14h4tJZUj3_El0ns_u5CKrozIgTELCyKxWwNBTEp9CNNHFqcG2109hkcexSfPM6aP8c5EOTVQjMANBCUT6becI-1Hwi7AMc23mLiMhSDCy9GlwJJCHypHzLR");'
+          ></div>
+          <div class="flex flex-1 flex-col gap-1 items-start">
+            <p class="text-[#9e4747] text-[13px] font-normal leading-normal max-w-[360px]">Luca</p>
+            <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#f4e6e6] text-[#1c0d0d]">
+              Ottimo lavoro, Giulia! Sono contento di sentire che ti sei sentita bene. Hai qualche domanda sull'allenamento di oggi?
+            </p>
+          </div>
+        </div>
+        <div class="flex items-end gap-3 p-4 justify-end">
+          <div class="flex flex-1 flex-col gap-1 items-end">
+            <p class="text-[#9e4747] text-[13px] font-normal leading-normal max-w-[360px] text-right">Giulia</p>
+            <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#e00606] text-[#fcf8f8]">
+              Sì, ho una domanda. Ho avuto un po' di difficoltà con l'ultimo esercizio, il plank. Ho sentito un po' di tensione nella parte bassa della schiena. C'è qualche
+              consiglio che puoi darmi per migliorare la mia postura e ridurre la tensione?
+            </p>
+          </div>
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBbImMKx8NlZoETE7w2qoPKw05-fFOKQH4h-t44ssfjvlhQoxWHsRlCzOFwWfnpEUtTkLuc4l1Ur-4i2JEy1txIHVKotJoEDIzj6hgvxlbNr9YRBIGbC5vOETA3tZdpgxbk7NZmfsG4ADMvxfO9IEFpau5E0NItrR5RlwnBUIQA6aAxfmbvMFI31OUtwmDoBCSNgZKrcTjrzlYXINA719gObhqUeT8FgJ4ku7ujEnXvfKUWVOV1V4GNkCtlAf8ndzLNV3dnbc9Q5kAz");'
+          ></div>
+        </div>
+        <div class="flex items-end gap-3 p-4">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBPlU49vp5rG2dH2Ix3NHd76t5snh3-tN81m3GjYghX9ynZmOPDRxgDxEutZTX_4k69nkJuA-t3yCT7z38epyai83EBTwDPynHB6_PfYvNAMcyxGDrrBIsyUiUb98SAJwwS5sJuc45meUI4HqylYFwbQV7x69_vhRRJQQCnBTWBwZiCDZBGsOOInlPENkgt4S_NV27rSYENAS75RPxWy0pHcGLWwZjRGSmGLuT2ZmltdBi5GCggMnDlTSUCeJ1RUhfdin85fCuhVtO2");'
+          ></div>
+          <div class="flex flex-1 flex-col gap-1 items-start">
+            <p class="text-[#9e4747] text-[13px] font-normal leading-normal max-w-[360px]">Luca</p>
+            <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#f4e6e6] text-[#1c0d0d]">
+              Certo, Giulia. Il plank è un esercizio che richiede una buona postura per evitare tensioni. Assicurati di mantenere il corpo in linea retta, dalla testa ai talloni, e
+              di attivare i muscoli addominali per sostenere la schiena. Evita di sollevare i fianchi o di abbassare la testa. Se senti tensione, puoi provare a fare il plank sulle
+              ginocchia per ridurre il carico. Possiamo anche rivedere la tecnica insieme durante la nostra prossima sessione.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="flex items-center px-4 py-3 gap-3 @container">
+          <label class="flex flex-col min-w-40 h-12 flex-1">
+            <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+              <input
+                placeholder="Scrivi un messaggio..."
+                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#1c0d0d] focus:outline-0 focus:ring-0 border-none bg-[#f4e6e6] focus:border-none h-full placeholder:text-[#9e4747] px-4 rounded-r-none border-r-0 pr-2 text-base font-normal leading-normal"
+                value=""
+              />
+              <div class="flex border-none bg-[#f4e6e6] items-center justify-center pr-4 rounded-r-lg border-l-0 !pr-2">
+                <div class="flex items-center gap-4 justify-end">
+                  <div class="flex items-center gap-1">
+                    <button class="flex items-center justify-center p-1.5">
+                      <div class="text-[#9e4747]" data-icon="Image" data-size="20px" data-weight="regular">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                          <path
+                            d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,16V158.75l-26.07-26.06a16,16,0,0,0-22.63,0l-20,20-44-44a16,16,0,0,0-22.62,0L40,149.37V56ZM40,172l52-52,80,80H40Zm176,28H194.63l-36-36,20-20L216,181.38V200ZM144,100a12,12,0,1,1,12,12A12,12,0,0,1,144,100Z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                  <button
+                    class="min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#e00606] text-[#fcf8f8] text-sm font-medium leading-normal hidden @[480px]:block"
+                  >
+                    <span class="truncate">Invia</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </label>
+        </div>
+        <div class="flex gap-2 border-t border-[#f4e6e6] bg-[#fcf8f8] px-4 pb-3 pt-2">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9e4747]" href="#">
+            <div class="text-[#9e4747] flex h-8 items-center justify-center" data-icon="Barbell" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M248,120h-8V88a16,16,0,0,0-16-16H208V64a16,16,0,0,0-16-16H168a16,16,0,0,0-16,16v56H104V64A16,16,0,0,0,88,48H64A16,16,0,0,0,48,64v8H32A16,16,0,0,0,16,88v32H8a8,8,0,0,0,0,16h8v32a16,16,0,0,0,16,16H48v8a16,16,0,0,0,16,16H88a16,16,0,0,0,16-16V136h48v56a16,16,0,0,0,16,16h24a16,16,0,0,0,16-16v-8h16a16,16,0,0,0,16-16V136h8a8,8,0,0,0,0-16ZM32,168V88H48v80Zm56,24H64V64H88V192Zm104,0H168V64h24V175.82c0,.06,0,.12,0,.18s0,.12,0,.18V192Zm32-24H208V88h16Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9e4747] text-xs font-medium leading-normal tracking-[0.015em]">Allenamento</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9e4747]" href="#">
+            <div class="text-[#9e4747] flex h-8 items-center justify-center" data-icon="Carrot" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M232,64H203.31l26.35-26.34a8,8,0,0,0-11.32-11.32L192,52.69V24a8,8,0,0,0-16,0V56.57a64,64,0,0,0-77.2,10.12l0,0,0,0,0,0c-40.1,39.39-70.25,133.08-73.19,142.45a16,16,0,0,0,21.26,21.26c9.37-2.94,103.18-33.13,142.47-73.21A64,64,0,0,0,199.43,80H232a8,8,0,0,0,0-16Zm-54.12,82c-8.94,9.12-21.25,17.8-34.85,25.73l-25.38-25.39a8,8,0,0,0-11.32,11.32l22.09,22.09c-40.87,21.19-86.32,35.42-87,35.63A7.93,7.93,0,0,0,40,216a7.93,7.93,0,0,0,.59-1.41c.29-.93,28-89.58,64-130.67l33.77,33.77a8,8,0,0,0,11.32-11.32L116.18,72.88A48,48,0,0,1,177.88,146Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9e4747] text-xs font-medium leading-normal tracking-[0.015em]">Nutrizione</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9e4747]" href="#">
+            <div class="text-[#9e4747] flex h-8 items-center justify-center" data-icon="Trophy" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M232,64H208V56a16,16,0,0,0-16-16H64A16,16,0,0,0,48,56v8H24A16,16,0,0,0,8,80V96a40,40,0,0,0,40,40h3.65A80.13,80.13,0,0,0,120,191.61V216H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16H136V191.58c31.94-3.23,58.44-25.64,68.08-55.58H208a40,40,0,0,0,40-40V80A16,16,0,0,0,232,64ZM48,120A24,24,0,0,1,24,96V80H48v32q0,4,.39,8Zm144-8.9c0,35.52-28.49,64.64-63.51,64.9H128a64,64,0,0,1-64-64V56H192ZM232,96a24,24,0,0,1-24,24h-.5a81.81,81.81,0,0,0,.5-8.9V80h24Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9e4747] text-xs font-medium leading-normal tracking-[0.015em]">Obiettivi</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-[#1c0d0d]" href="#">
+            <div class="text-[#1c0d0d] flex h-8 items-center justify-center" data-icon="ChatCircleDots" data-size="24px" data-weight="fill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24ZM84,140a12,12,0,1,1,12-12A12,12,0,0,1,84,140Zm44,0a12,12,0,1,1,12-12A12,12,0,0,1,128,140Zm44,0a12,12,0,1,1,12-12A12,12,0,0,1,172,140Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#1c0d0d] text-xs font-medium leading-normal tracking-[0.015em]">Chat</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9e4747]" href="#">
+            <div class="text-[#9e4747] flex h-8 items-center justify-center" data-icon="Gear" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm88-29.84q.06-2.16,0-4.32l14.92-18.64a8,8,0,0,0,1.48-7.06,107.21,107.21,0,0,0-10.88-26.25,8,8,0,0,0-6-3.93l-23.72-2.64q-1.48-1.56-3-3L186,40.54a8,8,0,0,0-3.94-6,107.71,107.71,0,0,0-26.25-10.87,8,8,0,0,0-7.06,1.49L130.16,40Q128,40,125.84,40L107.2,25.11a8,8,0,0,0-7.06-1.48A107.6,107.6,0,0,0,73.89,34.51a8,8,0,0,0-3.93,6L67.32,64.27q-1.56,1.49-3,3L40.54,70a8,8,0,0,0-6,3.94,107.71,107.71,0,0,0-10.87,26.25,8,8,0,0,0,1.49,7.06L40,125.84Q40,128,40,130.16L25.11,148.8a8,8,0,0,0-1.48,7.06,107.21,107.21,0,0,0,10.88,26.25,8,8,0,0,0,6,3.93l23.72,2.64q1.49,1.56,3,3L70,215.46a8,8,0,0,0,3.94,6,107.71,107.71,0,0,0,26.25,10.87,8,8,0,0,0,7.06-1.49L125.84,216q2.16.06,4.32,0l18.64,14.92a8,8,0,0,0,7.06,1.48,107.21,107.21,0,0,0,26.25-10.88,8,8,0,0,0,3.93-6l2.64-23.72q1.56-1.48,3-3L215.46,186a8,8,0,0,0,6-3.94,107.71,107.71,0,0,0,10.87-26.25,8,8,0,0,0-1.49-7.06Zm-16.1-6.5a73.93,73.93,0,0,1,0,8.68,8,8,0,0,0,1.74,5.48l14.19,17.73a91.57,91.57,0,0,1-6.23,15L187,173.11a8,8,0,0,0-5.1,2.64,74.11,74.11,0,0,1-6.14,6.14,8,8,0,0,0-2.64,5.1l-2.51,22.58a91.32,91.32,0,0,1-15,6.23l-17.74-14.19a8,8,0,0,0-5-1.75h-.48a73.93,73.93,0,0,1-8.68,0,8,8,0,0,0-5.48,1.74L100.45,215.8a91.57,91.57,0,0,1-15-6.23L82.89,187a8,8,0,0,0-2.64-5.1,74.11,74.11,0,0,1-6.14-6.14,8,8,0,0,0-5.1-2.64L46.43,170.6a91.32,91.32,0,0,1-6.23-15l14.19-17.74a8,8,0,0,0,1.74-5.48,73.93,73.93,0,0,1,0-8.68,8,8,0,0,0-1.74-5.48L40.2,100.45a91.57,91.57,0,0,1,6.23-15L69,82.89a8,8,0,0,0,5.1-2.64,74.11,74.11,0,0,1,6.14-6.14A8,8,0,0,0,82.89,69L85.4,46.43a91.32,91.32,0,0,1,15-6.23l17.74,14.19a8,8,0,0,0,5.48,1.74,73.93,73.93,0,0,1,8.68,0,8,8,0,0,0,5.48-1.74L155.55,40.2a91.57,91.57,0,0,1,15,6.23L173.11,69a8,8,0,0,0,2.64,5.1,74.11,74.11,0,0,1,6.14,6.14,8,8,0,0,0,5.1,2.64l22.58,2.51a91.32,91.32,0,0,1,6.23,15l-14.19,17.74A8,8,0,0,0,199.87,123.66Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9e4747] text-xs font-medium leading-normal tracking-[0.015em]">Impostazioni</p>
+          </a>
+        </div>
+        <div class="h-5 bg-[#fcf8f8]"></div>
+      </div>
+    </div>
+  </body>
+</html>

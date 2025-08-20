@@ -1,0 +1,190 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Lexend%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#fcf8f8] justify-between group/design-root overflow-x-hidden"
+      style='font-family: Lexend, "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-[#fcf8f8] p-4 pb-2 justify-between">
+          <div class="text-[#1b0e0e] flex size-12 shrink-0 items-center" data-icon="ArrowLeft" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+            </svg>
+          </div>
+          <h2 class="text-[#1b0e0e] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-12">Chat</h2>
+        </div>
+        <div class="flex items-end gap-3 p-4">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBkcRrcSGIWKhmXB2APjF4rDDxtvDSQxbI_-NfHQ1qP2grHJDA_pYfmfsznswVekHG41PZlRJq_0Mjx4ggGLYe2CyYW6GKJxRMx3fdlyRUs8hyaEC_VSaQ07LQqymna_w60uD6rk4v8VG4DcWDJrT0s5el1aopHMBtvkhqZUnB8aj4L1xTPHY1ba4dOP_peugkfxq6S0cj-vFdD0_NugwaGkhBWff6wz2m-sofRiz44V3U7d9u-W4buIZRqKvU8OVsGMQnKkLoKDNJc");'
+          ></div>
+          <div class="flex flex-1 flex-col gap-1 items-start">
+            <p class="text-[#994d51] text-[13px] font-normal leading-normal max-w-[360px]">Marco Rossi</p>
+            <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#f3e7e8] text-[#1b0e0e]">
+              Ciao, come va? Ho seguito il programma di allenamento di oggi e mi sento alla grande! Ho notato un miglioramento nella mia resistenza.
+            </p>
+          </div>
+        </div>
+        <div class="flex items-end gap-3 p-4 justify-end">
+          <div class="flex flex-1 flex-col gap-1 items-end">
+            <p class="text-[#994d51] text-[13px] font-normal leading-normal max-w-[360px] text-right">Giulia Bianchi</p>
+            <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#ea2a33] text-[#fcf8f8]">
+              Ciao Marco, sono felice di sentire che ti senti bene! Ottimo lavoro nel seguire il programma. La resistenza migliorerà costantemente con la pratica.
+            </p>
+          </div>
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBhOFK8ccK-37j6rlUiddFMqH3i90yAzmh_TFBqisr3QZxWBVnWjXtbtZMgObrJYEOVKjNaVRXxNv4RRrz8xsc87zqg8xAj7HAbG-EW6x_2s9ZO_IlV5q-dU9Yk-wilIKua1aeDF6r-M40-WckAm70hURh7gsq2NZ4ynDtPDN8IxaK1Ert0D3JicMaVDEUjrc4y9UTH1ugmtS44nYD1i2-bckTgnptn3NIITR39sd-B_TsD0g5KrWztVO_JMIaXxasMHdw6XsxDgKgj");'
+          ></div>
+        </div>
+        <div class="flex items-end gap-3 p-4">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCeYtmraKEhYc_bR2YKuvQ1eJuTfxm6aujfmd6QcbcOxhesiNWa_A-Q-V3kZkxh6Of_jGhMY-aWXCd8WoAlfcsZvtGGdQIY7s0aN06hy5qbSAVrhX4nghvuDiM5z8ZUII-JNcQ-wr_R2xoAlHBrvZ0unbse4NR7T2Z3jPY-Wj1m3b7oL9y-0q-iRIIPVRMB9R8Xgcwzh_usVwRPKAKUwD8RQRPclEuUMJ27Ql-jVjYk8Ys0AbjHC3rQ2efRMCtaOGIYw9-0f8iOMd_t");'
+          ></div>
+          <div class="flex flex-1 flex-col gap-1 items-start">
+            <p class="text-[#994d51] text-[13px] font-normal leading-normal max-w-[360px]">Marco Rossi</p>
+            <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#f3e7e8] text-[#1b0e0e]">
+              Grazie per il supporto! Ho una domanda riguardo all'alimentazione: posso sostituire il pollo con un'altra fonte di proteine nel piano alimentare?
+            </p>
+          </div>
+        </div>
+        <div class="flex items-end gap-3 p-4 justify-end">
+          <div class="flex flex-1 flex-col gap-1 items-end">
+            <p class="text-[#994d51] text-[13px] font-normal leading-normal max-w-[360px] text-right">Giulia Bianchi</p>
+            <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#ea2a33] text-[#fcf8f8]">
+              Certo, puoi sostituire il pollo con altre fonti di proteine come pesce, tofu o legumi. Assicurati di mantenere le porzioni simili per bilanciare l'apporto proteico.
+            </p>
+          </div>
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCHHD3Ky5CFws6cJw8b4Sr1wEWwqOGQiKC-1JL719BApm82yhKo4WJ84mwpw1jB_Ki3R9Z1uxQQ7LitQlC8Jfb6tU5iv1ISZ49EJy4WvMsflgExIKEjfNaoZJxKhJH8Df8Nn3hQJ2WYwq-kGeCh0A6NwLY9fF-zEnWdL8QUnxmUxgCaZ4vJX8w55zvyOWap74CGSuVwEtuxawNKOhCN6gVJHXrheiIfYTHWrYIDMpWXMBselWZPT70JLlfirpMuAA_mb4GBjBcTQxsL");'
+          ></div>
+        </div>
+        <div class="flex items-end gap-3 p-4">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBNFADgASltxmM42tiHWeyoi3C-HPobnICxYAO_DvWf9E_IhH5rWbhwPhDxv2vkQjmV9HWe_USFWw9ZGC7NVfw34Ix0H9hi4YyUXRUBTYEkIZYiS8Bvdru9qSto4NPQeTkXNVwk6BK7TArAeT83BSf-LJxyglFB4jI0w58c6GDl8yVYAQI-qNUb9aSkUndSv6fdMW719r-vFB9VKd2dYDbeeqDnJBV5lhpMv3N6ANYVeRz8bV2P_bQNbq3oEZ2uY4u0cjBOLeYXX8pb");'
+          ></div>
+          <div class="flex flex-1 flex-col gap-1 items-start">
+            <p class="text-[#994d51] text-[13px] font-normal leading-normal max-w-[360px]">Marco Rossi</p>
+            <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#f3e7e8] text-[#1b0e0e]">Perfetto, grazie mille per il consiglio!</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="flex items-center px-4 py-3 gap-3 @container">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10 shrink-0"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAX2EvVDV6XxRO5vwATSl0IqqRUFFI5ORtlit2dnC987Qx35bzKiJMt35GIAsQuhP9i4BQk0cz66vIYNNvIBJx1po5iqHV9olwz1YFX4i3xio7WU13uhyAN1rdTDLZeJVUTFypKUz1YEEc9YRbcw0Jdz6QmuQ10E73QDaxTvyIj5rUh62CGW0fPBPfhj6UrC0W23rV-2IET1kF7XW8raigosb-Cvji6lsVoZbV2f-CoPYbU0iSLPP8q-fk8z6dd62nYsRpzkUdEwsqC");'
+          ></div>
+          <label class="flex flex-col min-w-40 h-12 flex-1">
+            <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+              <input
+                placeholder="Scrivi un messaggio..."
+                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#1b0e0e] focus:outline-0 focus:ring-0 border-none bg-[#f3e7e8] focus:border-none h-full placeholder:text-[#994d51] px-4 rounded-r-none border-r-0 pr-2 text-base font-normal leading-normal"
+                value=""
+              />
+              <div class="flex border-none bg-[#f3e7e8] items-center justify-center pr-4 rounded-r-lg border-l-0 !pr-2">
+                <div class="flex items-center gap-4 justify-end">
+                  <div class="flex items-center gap-1">
+                    <button class="flex items-center justify-center p-1.5">
+                      <div class="text-[#994d51]" data-icon="Image" data-size="20px" data-weight="regular">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                          <path
+                            d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,16V158.75l-26.07-26.06a16,16,0,0,0-22.63,0l-20,20-44-44a16,16,0,0,0-22.62,0L40,149.37V56ZM40,172l52-52,80,80H40Zm176,28H194.63l-36-36,20-20L216,181.38V200ZM144,100a12,12,0,1,1,12,12A12,12,0,0,1,144,100Z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </button>
+                    <button class="flex items-center justify-center p-1.5">
+                      <div class="text-[#994d51]" data-icon="Microphone" data-size="20px" data-weight="regular">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                          <path
+                            d="M128,176a48.05,48.05,0,0,0,48-48V64a48,48,0,0,0-96,0v64A48.05,48.05,0,0,0,128,176ZM96,64a32,32,0,0,1,64,0v64a32,32,0,0,1-64,0Zm40,143.6V232a8,8,0,0,1-16,0V207.6A80.11,80.11,0,0,1,48,128a8,8,0,0,1,16,0,64,64,0,0,0,128,0,8,8,0,0,1,16,0A80.11,80.11,0,0,1,136,207.6Z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                  <button
+                    class="min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#ea2a33] text-[#fcf8f8] text-sm font-medium leading-normal hidden @[480px]:block"
+                  >
+                    <span class="truncate">Send</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </label>
+        </div>
+        <div class="flex gap-2 border-t border-[#f3e7e8] bg-[#fcf8f8] px-4 pb-3 pt-2">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#994d51]" href="#">
+            <div class="text-[#994d51] flex h-8 items-center justify-center" data-icon="House" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#994d51] text-xs font-medium leading-normal tracking-[0.015em]">Home</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#994d51]" href="#">
+            <div class="text-[#994d51] flex h-8 items-center justify-center" data-icon="Users" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M117.25,157.92a60,60,0,1,0-66.5,0A95.83,95.83,0,0,0,3.53,195.63a8,8,0,1,0,13.4,8.74,80,80,0,0,1,134.14,0,8,8,0,0,0,13.4-8.74A95.83,95.83,0,0,0,117.25,157.92ZM40,108a44,44,0,1,1,44,44A44.05,44.05,0,0,1,40,108Zm210.14,98.7a8,8,0,0,1-11.07-2.33A79.83,79.83,0,0,0,172,168a8,8,0,0,1,0-16,44,44,0,1,0-16.34-84.87,8,8,0,1,1-5.94-14.85,60,60,0,0,1,55.53,105.64,95.83,95.83,0,0,1,47.22,37.71A8,8,0,0,1,250.14,206.7Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#994d51] text-xs font-medium leading-normal tracking-[0.015em]">Clienti</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#994d51]" href="#">
+            <div class="text-[#994d51] flex h-8 items-center justify-center" data-icon="Barbell" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M248,120h-8V88a16,16,0,0,0-16-16H208V64a16,16,0,0,0-16-16H168a16,16,0,0,0-16,16v56H104V64A16,16,0,0,0,88,48H64A16,16,0,0,0,48,64v8H32A16,16,0,0,0,16,88v32H8a8,8,0,0,0,0,16h8v32a16,16,0,0,0,16,16H48v8a16,16,0,0,0,16,16H88a16,16,0,0,0,16-16V136h48v56a16,16,0,0,0,16,16h24a16,16,0,0,0,16-16v-8h16a16,16,0,0,0,16-16V136h8a8,8,0,0,0,0-16ZM32,168V88H48v80Zm56,24H64V64H88V192Zm104,0H168V64h24V175.82c0,.06,0,.12,0,.18s0,.12,0,.18V192Zm32-24H208V88h16Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#994d51] text-xs font-medium leading-normal tracking-[0.015em]">Programmi</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#994d51]" href="#">
+            <div class="text-[#994d51] flex h-8 items-center justify-center" data-icon="File" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#994d51] text-xs font-medium leading-normal tracking-[0.015em]">Piani</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-[#1b0e0e]" href="#">
+            <div class="text-[#1b0e0e] flex h-8 items-center justify-center" data-icon="ChatCircleDots" data-size="24px" data-weight="fill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24ZM84,140a12,12,0,1,1,12-12A12,12,0,0,1,84,140Zm44,0a12,12,0,1,1,12-12A12,12,0,0,1,128,140Zm44,0a12,12,0,1,1,12-12A12,12,0,0,1,172,140Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#1b0e0e] text-xs font-medium leading-normal tracking-[0.015em]">Chat</p>
+          </a>
+        </div>
+        <div class="h-5 bg-[#fcf8f8]"></div>
+      </div>
+    </div>
+  </body>
+</html>
